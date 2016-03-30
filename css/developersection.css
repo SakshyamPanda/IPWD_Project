@@ -1,0 +1,61 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+
+#tableu{
+    display:table;
+    margin-left: 10%;
+    width: 80%;
+    background-color: #645;
+}
+
+#avatar{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#mailLink{
+    color: #fff;
+
+}
+#ContactName{
+    margin: 0 0 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.r{
+    display: table-row;
+}
+.c{
+    display: table-cell;
+    width: 33.33%;
+    padding-bottom: 15px;
+
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
